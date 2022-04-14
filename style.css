@@ -1,0 +1,51 @@
+:root {
+    --bs-neutral-rgb: 231, 224, 220;
+    --bs-neutral: rgb(var(--bs-neutral-rgb));
+    --bs-brown-rgb: 117, 75, 39;
+    --bs-brown: rgb(var(--bs-brown-rgb));
+}
+
+.bg-light {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-neutral-rgb),var(--bs-bg-opacity))!important;
+}
+
+body {
+    font-family: './fonts/oswald.ttf';
+}
+
+.logo {
+    width: 150px;
+}
+
+iframe {
+    width: 100%;
+    height: 62.5rem;
+}
+
+div.row {
+    padding: 90px 0 0 0;
+}
+
+.fw-bolder {
+    padding: 10px 0 0 0;
+}
+
+.btn {
+    margin-top: 1rem;
+    width: 100%;
+    background-color: #E7E0DC;
+}
+
+.margin {
+    margin-bottom: 90px;
+}
+
+footer {
+    padding: 20px;
+}
+
+.logotype {
+    width: 30px;
+}
+
