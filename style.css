@@ -76,6 +76,18 @@ p, h1 {
     }
 }
 
+@media screen and (max-width: 518px) {
+    .p-text {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 468px) {
+    .p-text {
+        font-size: 0.8rem;
+    }
+}
+
 @media screen and (max-width: 496px) {
     .title {
         font-size: 3rem;
@@ -91,6 +103,9 @@ p, h1 {
     h1 {
         font-size: 1rem;
     }
+    .p-text {
+        font-size: 0.7rem;
+    }
 } 
 
  @media screen and (max-width: 412px) {
@@ -99,5 +114,8 @@ p, h1 {
     }
     h1 {
         font-size: 1rem;
+    }
+    .p-text {
+        font-size: 0.7rem;
     }
 } 
