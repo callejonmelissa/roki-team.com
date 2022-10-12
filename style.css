@@ -87,8 +87,8 @@ p, h1 {
     }
 }
 
-/* @media screen and (max-width: 390px) {
+ @media screen and (max-width: 412px) {
     .title {
         font-size: 3rem;
     }
-} */
+} 
