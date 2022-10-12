@@ -1,51 +1,35 @@
-:root {
-    --bs-neutral-rgb: 231, 224, 220;
-    --bs-neutral: rgb(var(--bs-neutral-rgb));
-    --bs-brown-rgb: 117, 75, 39;
-    --bs-brown: rgb(var(--bs-brown-rgb));
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 
-.bg-light {
-    --bs-bg-opacity: 1;
-    background-color: rgba(var(--bs-neutral-rgb),var(--bs-bg-opacity))!important;
+* {
+    margin: 0;
+	padding: 0;
+	border: 0;
 }
 
 body {
-    font-family: './fonts/oswald.ttf';
+    width: 100vw;
+    height: 100vh;
 }
 
-.logo {
-    width: 150px;
+p, h1 {
+    font-family: 'Poppins', sans-serif;
+    color: white;
 }
 
-iframe {
-    width: 100%;
-    height: 62.5rem;
+.title {
+    font-weight: 600;
+    font-size: 10rem;
+    text-transform: uppercase;
+    margin-top: 4rem;
+    color: #3722DA;
+    -webkit-text-stroke: 1px white;
 }
 
-div.row {
-    padding: 90px 0 0 0;
+.background {
+    background: linear-gradient(153.69deg, #1231C9 -0.31%, #3622D9 33.69%, #7A06F9 99.69%);
+    background-repeat: no-repeat;
 }
 
-.fw-bolder {
-    padding: 10px 0 0 0;
+.animation {
+    width: 20rem;
 }
-
-.btn {
-    margin-top: 1rem;
-    width: 100%;
-    background-color: #E7E0DC;
-}
-
-.margin {
-    margin-bottom: 90px;
-}
-
-footer {
-    padding: 20px;
-}
-
-.logotype {
-    width: 30px;
-}
-
