@@ -16,6 +16,11 @@ p, h1 {
     color: white;
 }
 
+.background {
+    background: linear-gradient(153.69deg, #1231C9 -0.31%, #3622D9 33.69%, #7A06F9 99.69%);
+    background-repeat: no-repeat;
+}
+
 .title {
     font-weight: 600;
     font-size: 10rem;
@@ -25,11 +30,65 @@ p, h1 {
     -webkit-text-stroke: 1px white;
 }
 
-.background {
-    background: linear-gradient(153.69deg, #1231C9 -0.31%, #3622D9 33.69%, #7A06F9 99.69%);
-    background-repeat: no-repeat;
+.logo {
+    width: 10rem;
+}
+
+.div-animation {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .animation {
     width: 20rem;
 }
+
+@media screen and (max-width: 1399px) {
+    .title {
+        font-size: 8rem;
+    }
+    .container {
+        margin-top: 10vh;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .title {
+        font-size: 6rem;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .title {
+        font-size: 5rem;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .container {
+        margin-top: 1vh;
+    }
+    .title {
+        font-size: 4rem;
+    }
+    .div-animation {
+        margin-top: 8vh;
+    }
+}
+
+@media screen and (max-width: 496px) {
+    .title {
+        font-size: 3rem;
+    }
+    .div-animation {
+        display: flex;
+        justify-content: center;
+        margin-top: 8vh;
+    }
+}
+
+/* @media screen and (max-width: 390px) {
+    .title {
+        font-size: 3rem;
+    }
+} */
